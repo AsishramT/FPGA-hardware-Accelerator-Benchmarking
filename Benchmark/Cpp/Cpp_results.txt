@@ -1,0 +1,41 @@
+C++ Matrix Multiplication Benchmark Results:
+16x16
+Run 1: 0.001994 ms
+Run 2: 0.001621 ms
+Run 3: 0.001808 ms
+Run 4: 0.00151 ms
+Run 5: 0.001835 ms
+16x16 Average: 0.0017536 ms
+
+32x32
+Run 1: 0.038407 ms
+Run 2: 0.009053 ms
+Run 3: 0.012257 ms
+Run 4: 0.012457 ms
+Run 5: 0.011982 ms
+32x32 Average: 0.0168312 ms
+
+64x64
+Run 1: 0.098963 ms
+Run 2: 0.102922 ms
+Run 3: 0.094563 ms
+Run 4: 0.066352 ms
+Run 5: 0.098138 ms
+64x64 Average: 0.0921876 ms
+
+128x128
+Run 1: 0.645018 ms
+Run 2: 0.664743 ms
+Run 3: 0.65374 ms
+Run 4: 0.637802 ms
+Run 5: 0.660306 ms
+128x128 Average: 0.652322 ms
+
+256x256
+Run 1: 4.75169 ms
+Run 2: 4.7107 ms
+Run 3: 4.73217 ms
+Run 4: 4.68283 ms
+Run 5: 4.67285 ms
+256x256 Average: 4.71005 ms
+

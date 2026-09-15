@@ -1,0 +1,42 @@
+Python Matrix Multiplication Benchmark Results:
+
+16x16
+Run 1: 0.119562 ms
+Run 2: 0.118924 ms
+Run 3: 0.116669 ms
+Run 4: 0.114479 ms
+Run 5: 0.126282 ms
+Average: 0.119183 ms
+
+32x32
+Run 1: 0.937330 ms
+Run 2: 0.937759 ms
+Run 3: 0.924414 ms
+Run 4: 0.959121 ms
+Run 5: 0.933353 ms
+Average: 0.938395 ms
+
+64x64
+Run 1: 7.662896 ms
+Run 2: 7.533352 ms
+Run 3: 7.748103 ms
+Run 4: 7.616620 ms
+Run 5: 7.794313 ms
+Average: 7.671057 ms
+
+128x128
+Run 1: 58.719762 ms
+Run 2: 61.375508 ms
+Run 3: 64.563337 ms
+Run 4: 60.321328 ms
+Run 5: 59.130558 ms
+Average: 60.822099 ms
+
+256x256
+Run 1: 499.789614 ms
+Run 2: 498.791355 ms
+Run 3: 503.545104 ms
+Run 4: 483.693673 ms
+Run 5: 476.941813 ms
+Average: 492.552312 ms
+
