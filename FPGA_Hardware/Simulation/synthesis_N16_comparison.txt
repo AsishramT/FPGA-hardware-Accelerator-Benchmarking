@@ -1,0 +1,140 @@
+================================
+N = 16, LANES = 4
+================================
+=== ParallelMatrixMultiplierSynth ===
+
+   Number of wires:                111
+   Number of wire bits:          63047
+   Number of public wires:          15
+   Number of public wire bits:   12435
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 96
+     $add                           21
+     $and                            1
+     $eq                             4
+     $logic_not                      1
+     $lt                             5
+     $mul                            4
+     $mux                           19
+     $ne                             6
+     $neg                            1
+     $not                            2
+     $or                             1
+     $pmux                           7
+     $reduce_and                     5
+     $reduce_bool                    1
+     $sdffe                          8
+     $shift                          2
+     $shiftx                         8
+
+End of script. Logfile hash: 10cc211604, CPU: user 9.74s system 0.04s, MEM: 123.79 MB peak
+Yosys 0.33 (git sha1 2584903a060)
+Time spent: 75% 1x proc_mux (7 sec), 10% 5x opt_expr (1 sec), ...
+
+================================
+N = 16, LANES = 8
+================================
+=== ParallelMatrixMultiplierSynth ===
+
+   Number of wires:                155
+   Number of wire bits:          64139
+   Number of public wires:          15
+   Number of public wire bits:   12435
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                132
+     $add                           37
+     $and                            1
+     $eq                             4
+     $logic_not                      1
+     $lt                             9
+     $mul                            8
+     $mux                           23
+     $ne                             6
+     $neg                            1
+     $not                            2
+     $or                             1
+     $pmux                           7
+     $reduce_and                     5
+     $reduce_bool                    1
+     $sdffe                          8
+     $shift                          2
+     $shiftx                        16
+
+End of script. Logfile hash: 8ca6df378a, CPU: user 9.62s system 0.04s, MEM: 114.94 MB peak
+Yosys 0.33 (git sha1 2584903a060)
+Time spent: 75% 1x proc_mux (7 sec), 10% 5x opt_expr (1 sec), ...
+
+================================
+N = 16, LANES = 12
+================================
+=== ParallelMatrixMultiplierSynth ===
+
+   Number of wires:                199
+   Number of wire bits:          65231
+   Number of public wires:          15
+   Number of public wire bits:   12435
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                168
+     $add                           53
+     $and                            1
+     $eq                             4
+     $logic_not                      1
+     $lt                            13
+     $mul                           12
+     $mux                           27
+     $ne                             6
+     $neg                            1
+     $not                            2
+     $or                             1
+     $pmux                           7
+     $reduce_and                     5
+     $reduce_bool                    1
+     $sdffe                          8
+     $shift                          2
+     $shiftx                        24
+
+End of script. Logfile hash: 267c89c2f0, CPU: user 9.66s system 0.04s, MEM: 125.11 MB peak
+Yosys 0.33 (git sha1 2584903a060)
+Time spent: 74% 1x proc_mux (7 sec), 11% 5x opt_expr (1 sec), ...
+
+================================
+N = 16, LANES = 16
+================================
+=== ParallelMatrixMultiplierSynth ===
+
+   Number of wires:                243
+   Number of wire bits:          66323
+   Number of public wires:          15
+   Number of public wire bits:   12435
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                204
+     $add                           69
+     $and                            1
+     $eq                             4
+     $logic_not                      1
+     $lt                            17
+     $mul                           16
+     $mux                           31
+     $ne                             6
+     $neg                            1
+     $not                            2
+     $or                             1
+     $pmux                           7
+     $reduce_and                     5
+     $reduce_bool                    1
+     $sdffe                          8
+     $shift                          2
+     $shiftx                        32
+
+End of script. Logfile hash: 00896616a5, CPU: user 9.74s system 0.02s, MEM: 113.29 MB peak
+Yosys 0.33 (git sha1 2584903a060)
+Time spent: 73% 1x proc_mux (7 sec), 11% 5x opt_expr (1 sec), ...
+
